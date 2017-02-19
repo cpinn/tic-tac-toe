@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta name="author" content="Caitlin Pinn">
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="GameBoard.js"></script>
+    <script type="text/javascript" src="Minimax.js"></script>
+    <script type="text/javascript" src="TicTacToe.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <div class="center">
+      <!-- Title -->
+      <div class="title">
+          <h1>Tic Tac Toe</h1>
+          <hr>
+      </div>
+      <!-- End game message -->
+      <div class="gameState" id="gameState"></div>
+      <!-- Tic Tac Toe board -->
+      <table id="board" align="center">
+        <tr id="row">
+          <td class="square borderBottom borderRight" id=0></td>
+          <td class="square borderLeft borderBottom borderRight" id=1></td>
+          <td class="square borderLeft borderBottom" id=2></td>
+        </tr>
+        <tr id="row">
+          <td class="square borderTop borderRight borderBottom" id=3></td>
+          <td class="square borderTop borderRight borderBottom borderLeft" id=4></td>
+          <td class="square borderTop borderLeft borderBottom" id=5></td>
+        </tr>
+        <tr id="row">
+          <td class="square borderTop borderRight" id=6></td>
+          <td class="square borderLeft borderTop borderRight" id=7></td>
+          <td class="square borderLeft borderTop" id=8></td>
+        </tr>
+      </table>
+      <!-- Reset button -->
+      <button id="restart" class="button">Reset Game</button>
+    </div>
+  </body>
+</html>

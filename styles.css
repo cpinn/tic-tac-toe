@@ -1,0 +1,56 @@
+/* Author: Caitlin Pinn */
+td {
+	height: 50px;
+	width: 50px;
+}
+
+h1 {
+	font-family: sans-serif;
+}
+
+.center {
+	text-align: center;
+}
+
+ hr { 
+ 	margin-bottom: 40px; 
+ }
+
+.square {
+	padding: 40px;
+	font-size: 40px;
+	font-family: Sans-serif;
+}
+
+.borderBottom {
+	border-bottom: 1px solid black;
+}
+.borderTop {
+	border-top: 1px solid black;
+}
+.borderLeft {
+	border-left: 1px solid black;
+}
+.borderRight {
+	border-right: 1px solid black;
+}
+
+.gameState {
+    color: red;
+    height: 50px;
+    font-size: 35px;
+	font-family: sans-serif;
+}
+
+.button {
+	padding:10px;
+	margin: 20px;
+	font-family: sans-serif;
+}
+
+.X {
+	color: green;
+}
+.O {
+	color: blue;
+}
